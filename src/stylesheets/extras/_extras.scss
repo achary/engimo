@@ -6,18 +6,34 @@
 
 .deprecated 
 { 
-    color:#455a64; 
+    color:#ff0000; 
     margin-top:1em; 
     padding:1em;
     background-color: transparent;
-    border: 1px solid black;
+    border: 1px solid #ff0000;
     background-image: url('/images/alert-triangle.svg');
     background-repeat: no-repeat;
     background-position: 8px 50%;
     padding-left: 2em;
     border-radius: 0.25em;
+    filter: invert(15%) sepia(76%) saturate(6943%) hue-rotate(356deg) brightness(99%) contrast(118%);
 }
 .deprecated_title
 {
     color: #37474f;
+}
+
+/* columns */
+.columns {
+    margin-left: -1rem;
+    margin-right: -1rem;
+    display: flex;
+    flex-wrap: wrap;
+
+    > div {
+      margin: 1rem 0;
+      min-width: 20rem / 2;
+      padding: 0 1rem;
+      flex: 1 1;
+    }
 }
