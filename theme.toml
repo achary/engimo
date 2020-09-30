@@ -8,6 +8,7 @@ tags = [
   "minimal",
   "minimalist",
   "responsive",
+  "google-analytics",
   "engineering"
 ]
 features = [
@@ -43,7 +44,7 @@ features = [
   "deprecated-pages",
   "mathjax"
 ]
-min_version = 0.55
+min_version = 0.73
 
 [author]
   name = "Adam Charytoniuk"

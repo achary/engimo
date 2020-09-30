@@ -12,4 +12,4 @@ command = "ln -s repo ../engimo && hugo --source=exampleSite --themesDir=../..  
 
 [build.environment]
 HUGO_THEMESDIR = "../.."
-HUGO_VERSION = "0.55.4"
+HUGO_VERSION = "0.73.0"
